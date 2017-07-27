@@ -134,7 +134,7 @@ class DateWidget(BaseWidget, HTMLInputWidget):
     _converter = DateWidgetConverter
     _formater = 'date'
 
-    pattern = 'pickadate'
+    pattern = 'date-picker'
     pattern_options = BaseWidget.pattern_options.copy()
 
     def _base_args(self):
@@ -207,6 +207,7 @@ class DatetimeWidget(DateWidget, HTMLInputWidget):
     _converter = DatetimeWidgetConverter
     _formater = 'dateTime'
 
+    pattern = 'datetime-picker'
     pattern_options = DateWidget.pattern_options.copy()
 
     default_timezone = None
