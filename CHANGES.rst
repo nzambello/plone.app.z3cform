@@ -1,8 +1,8 @@
 Changelog
 =========
 
-3.0.8 (unreleased)
-------------------
+3.1 (unreleased)
+----------------
 
 Breaking changes:
 
@@ -10,7 +10,11 @@ Breaking changes:
 
 New features:
 
-- *add item here*
+- PLIP 2150 date widget improvements:
+  - Change the input type for date fields to ``date`` and for datetime fields to ``datetime-local``.
+  - Use ``pat-date-picker`` and ``pat-datetime-picker`` from Pattern library.
+  - Use ISO8601/HTML5 datetime-local format.
+  [thet]
 
 Bug fixes:
 
@@ -74,17 +78,6 @@ Bug fixes:
 New features:
 
 - Link widget: add ``placeholder`` attributes for external and email link input fields.
-- PLIP 2150: Use ISO8601/HTML5 datetime-local format.
-  [thet]
-
-- Change the input type for date fields to ``date`` and for datetime fields to ``datetime-local``.
-- PLIP 2150: Use ISO8601/HTML5 datetime-local format.
-  [thet]
-
-- PLIP 2150: Use ``pat-date-picker`` and ``pat-datetime-picker`` from Pattern library.
-  [thet]
-
-- PLIP 2150: Change the input type for date fields to ``date`` and for datetime fields to ``datetime-local``.
   [thet]
 
 Bug fixes:
